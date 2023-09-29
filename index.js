@@ -24,7 +24,7 @@ app.get('/tasks',(req,res)=>{
 // GET /tasks/<id> : Retrieve a single task by its ID.
 app.get('/tasks/:taskId',(req,res)=>{
     let taskId = req.params.taskId;
-    let task = taskArrData.filter(val=>val.id == taskId);
+    let task = taskArrData.find(val=>val.id == taskId);
     if(!task.length){
         return res.status(404).send("Task not found");
     }
