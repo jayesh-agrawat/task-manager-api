@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed on your system:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone git@github.com:jayesh-agrawat/task-manager-api.git
+git clone https://github.com/jayesh-agrawat/task-manager-api.git
 ```
 
 2. Navigate to the project directory:
@@ -99,4 +99,4 @@ curl -X DELETE http://localhost:3000/api/v1/tasks/1
 
 API requests using `POSTMAN`:
 
-- Use this API [collection](/collections/Task_Manager_API.postman_collection.json)
+- Use this POSTMAN API [collection](/collections/Task_Manager_API.postman_collection.json)
