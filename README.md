@@ -99,4 +99,4 @@ curl -X DELETE http://localhost:3000/api/v1/tasks/1
 
 API requests using `POSTMAN`:
 
-- Use this API [collection](/collections/Task_Manager_API.postman_collection.json)
+- Use this POSTMAN API [collection](/collections/Task_Manager_API.postman_collection.json)
