@@ -82,13 +82,13 @@ curl http://localhost:3000/api/v1/tasks/1
 - Create a new task:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"title": "Task 1", "description": "Description for Task 1", "flag": false}' http://localhost:3000/api/v1/tasks
+curl -X POST -H "Content-Type: application/json" -d '{"title": "Task 1", "description": "Description for Task 1", "completed": false}' http://localhost:3000/api/v1/tasks
 ```
 
 - Update an existing task by ID:
 
 ```bash
-curl -X PUT -H "Content-Type: application/json" -d '{"title": "Updated Task 1", "description": "Updated Description", "flag": true}' http://localhost:3000/api/v1/tasks/1
+curl -X PUT -H "Content-Type: application/json" -d '{"title": "Updated Task 1", "description": "Updated Description", "completed": true}' http://localhost:3000/api/v1/tasks/1
 ```
 
 - Delete a task by ID:
@@ -99,4 +99,4 @@ curl -X DELETE http://localhost:3000/api/v1/tasks/1
 
 API requests using `POSTMAN`:
 
-- Go through this API [collection](/collections/Task_Manager_API.postman_collection.json)
+- Use this API [collection](/collections/Task_Manager_API.postman_collection.json)
