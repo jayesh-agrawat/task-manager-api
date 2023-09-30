@@ -12,11 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks",
+					"raw": "{{base_url}}/api/v1/tasks",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"tasks"
 					]
 				}
@@ -29,18 +31,20 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks/:id",
+					"raw": "{{base_url}}/api/v1/tasks/:id",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"tasks",
 						":id"
 					],
 					"variable": [
 						{
 							"key": "id",
-							"value": "2"
+							"value": "1"
 						}
 					]
 				}
@@ -54,7 +58,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\":\"Task\",\n    \"description\":\"TEST\",\n    \"flag\":false\n}",
+					"raw": "{\n    \"title\":\"Task 4\",\n    \"description\":\"TEST\",\n    \"completed\":false\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -62,11 +66,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/tasks",
+					"raw": "{{base_url}}/api/v1/tasks",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"tasks"
 					]
 				}
@@ -80,7 +86,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\":\"Task\",\n    \"description\":\"TEST Updated\",\n    \"flag\":true\n}",
+					"raw": "{\n    \"title\":\"Task 3\",\n    \"description\":\"TEST Updated\",\n    \"completed\":true\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -88,11 +94,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/tasks/:id",
+					"raw": "{{base_url}}/api/v1/tasks/:id",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"tasks",
 						":id"
 					],
@@ -112,11 +120,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/tasks/:id",
+					"raw": "{{base_url}}/api/v1/tasks/:id",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"tasks",
 						":id"
 					],

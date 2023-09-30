@@ -2,7 +2,7 @@ class Validator{
     static validateTaskDetails(taskDetails){
         if(taskDetails.hasOwnProperty('title') && taskDetails.title.trim().length > 0 &&
             taskDetails.hasOwnProperty('description') && taskDetails.description.trim().length > 0 &&
-            taskDetails.hasOwnProperty('flag') && typeof taskDetails.flag == 'boolean'
+            taskDetails.hasOwnProperty('completed') && typeof taskDetails.completed == 'boolean'
         ){
             return {
                 "status":true,
