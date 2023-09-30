@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed on your system:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone git@github.com:jayesh-agrawat/task-manager-api.git
+git clone https://github.com/jayesh-agrawat/task-manager-api.git
 ```
 
 2. Navigate to the project directory:
