@@ -7,10 +7,12 @@ This is a simple RESTful API for a task manager application built using Node.js 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 
 - [Usage](#usage)
+
    - [Running the Server](#running-the-server)
    - [API Endpoints](#api-endpoints)
 
